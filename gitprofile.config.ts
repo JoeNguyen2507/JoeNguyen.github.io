@@ -9,6 +9,11 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
+  // gitprofile.config.ts
+{
+  base: '/',
+  // other configurations...
+}
   base: '/gitprofile/',
   projects: {
     github: {
