@@ -23,7 +23,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['joenguyen/gitprofile', 'joenguyen/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -50,14 +50,14 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Joe Nguyen',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'Joe Nguyen',
+    twitter: '',
+    mastodon: 'a',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -74,7 +74,7 @@ const CONFIG = {
     telegram: '',
     website: 'https://www.arifszn.com',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'joenguyen257@gmail.com',
   },
   resume: {
     fileUrl:
