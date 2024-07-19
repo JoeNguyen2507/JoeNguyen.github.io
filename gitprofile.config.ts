@@ -194,6 +194,7 @@ const CONFIG = {
       'sunset',
       'procyon',
     ],
+    // Custom theme, applied to `procyon` theme
     customTheme: {
       primary: '#fc055b',
       secondary: '#219aaf',
@@ -204,7 +205,6 @@ const CONFIG = {
       '--rounded-btn': '3rem',
     },
   },
-}
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
