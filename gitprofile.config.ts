@@ -14,7 +14,7 @@ const CONFIG = {
   base: '/',
   // other configurations...
 }
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
