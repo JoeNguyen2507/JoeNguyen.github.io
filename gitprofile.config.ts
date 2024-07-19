@@ -1,4 +1,17 @@
 // gitprofile.config.ts
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/',
+  // Example of other configurations
+  server: {
+    port: 3000,
+  },
+  build: {
+    outDir: 'dist',
+  },
+  // add other configurations as needed
+});
 
 const CONFIG = {
   github: {
