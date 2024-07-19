@@ -1,18 +1,3 @@
-// gitprofile.config.ts
-import { defineConfig } from 'vite';
-
-export default defineConfig({
-  base: '/',
-  // Example of other configurations
-  server: {
-    port: 3000,
-  },
-  build: {
-    outDir: 'dist',
-  },
-  // add other configurations as needed
-});
-
 const CONFIG = {
   github: {
     username: 'JoeNguyen2507', // Your GitHub org/user name. (This is the only required config)
@@ -22,12 +7,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  // gitprofile.config.ts
-{
-  base: '/',
-  // other configurations...
-}
-  base: '/gitprofile/',
+  base: '/', // Change this to '/<REPO_NAME>/' if this is a project site
   projects: {
     github: {
       display: true, // Display GitHub projects?
