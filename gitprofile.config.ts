@@ -45,10 +45,14 @@ const CONFIG = {
     description: 'A portfolio showcasing the projects and skills of Joe Nguyen',
     imageURL: 'https://your-image-url.com/image.jpg', // Replace with an actual image URL
   },
+
+  // gitprofile.config.ts
+const CONFIG = {
+  // ...
   social: {
-    linkedin: 'Joe Nguyen',
-    twitter: '',
-    mastodon: '',
+    linkedin: 'ariful-alam',
+    twitter: 'arif_szn',
+    mastodon: 'arifszn@mastodon.social',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -58,15 +62,16 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '',
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'joenguyen257@gmail.com',
+    email: '',
   },
+};
   resume: {
     fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button
   },
